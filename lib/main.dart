@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram/ui/home/hello_page.dart';
+import 'package:instagram/ui/instahome/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryColor: Colors.white,
       ),
-      home: HelloPage(),
+      home: LoginPage(),
     );
   }
 }
